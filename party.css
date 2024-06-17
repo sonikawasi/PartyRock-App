@@ -1,0 +1,102 @@
+body {
+    background-color: #011222; /* Deep navy blue background color */
+    color: white; /* White text color */
+    font-family: 'Times New Roman', Times, serif; /* Arial font */
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+
+.header {
+    width: 100%;
+    background-color: #011222; /* Matching header background color */
+    color: yellow; /* Yellow text */
+    box-shadow: 0 4px 8px rgba(255, 255, 0, 0.3); /* Yellow box shadow */
+    text-align: center;
+    padding: 20px 0;
+}
+
+.hover-header:hover {
+    color: white; /* White text on hover */
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+.description {
+    text-align: left; /* Align text to the left within the container */
+    max-width: 600px; /* Limit the width of the description text */
+    margin: 0 auto; /* Center the container horizontally */
+}
+
+.description .hover-text {
+    color: yellow; /* Default yellow text color */
+    transition: color 0.3s ease; /* Smooth transition for color change */
+}
+
+.description .hover-text:hover {
+    color: white; /* White text color on hover */
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #011222; /* Matching footer background color */
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.3); /* Drop shadow at the top of the footer */
+    width: 100%;
+}
+
+.play-button {
+    background-color: #011222; /* Matching button background color */
+    color: yellow; /* Yellow text */
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(255, 255, 0, 0.3); /* Yellow box shadow */
+    border-radius: 5px;
+}
+
+.play-button:hover {
+    background-color: #021c2e; /* Slightly lighter on hover */
+}
+
+.container .grammar-ace {
+    color:yellow; /* Default color for Grammar Ace */
+    transition: color 0.3s; /* Smooth transition for color change */
+    text-shadow: 0 4px 8px rgba(173, 255, 47, 0.3); /* Initial border shadow color */
+   /* transition: color 0.3s, text-shadow 0.3s; 
+    
+}
+
+.container .grammar-ace:hover {
+    color:white; /* Change to yellow on hover */
+}
+
+.header .party-rock {
+    color: yellow; /* Default color for PartyRock App */
+    transition: color 0.3s; /* Smooth transition for color change */
+}
+
+.header .party-rock:hover {
+    color: white; /* Change to white on hover */
+}
+
+
+
+
+
+.partyrock-header {
+    color: yellow; /* Initial text color */
+    text-shadow: 0 4px 8px rgba(173, 255, 47, 0.3); /* Initial border shadow color */
+    transition: color 0.3s, text-shadow 0.3s; /* Smooth transition for hover effect */
+}
+
+.partyrock-header:hover {
+    color: white; /* Hover text color */
+    text-shadow: 0 4px 8px rgba(173, 255, 47, 1); /* Hover border shadow color (yellowgreen) */
+}
